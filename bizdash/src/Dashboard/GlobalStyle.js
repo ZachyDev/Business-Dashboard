@@ -1,7 +1,8 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
-const darkGrey = '#63666A';
-const lightGrey = '#b4d6db';
+export const darkGrey = '#63666A';
+export const lightGrey = '#b4d6db';
+export const midGrey = '#dad9d9'
 
 const GlobalStyle = createGlobalStyle`
     body {

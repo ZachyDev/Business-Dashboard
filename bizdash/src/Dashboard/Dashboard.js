@@ -2,16 +2,14 @@ import React from 'react'
 import Brand from './Brand'
 import Container from './Container'
 import GlobalStyle from './GlobalStyle'
-import { Card } from './Card'
-
+import Chart from './Chart'
 function Dashboard() {
   return (
     <>
     <GlobalStyle />
     <Container>
         <Brand />
-        <Card> Chart goes here</Card>
-        <Card>Table goes here </Card>
+        <Chart />
     </Container>
     </>
   )
